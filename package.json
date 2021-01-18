@@ -1,0 +1,16 @@
+{
+  "name": "dockerTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "deploy": "git pull && sudo npm i && pm2 restart all"
+  },
+  "author": "sharmakartikey54@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
